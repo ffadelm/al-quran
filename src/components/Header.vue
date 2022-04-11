@@ -1,9 +1,8 @@
 <template>
-  <router-link to="/">Home</router-link>
-
+  <router-link to="/">Al-Qur'an</router-link>
   <div class="languages">
-    <span @click="toIndonesia"><span class="fi fi-id"></span> Indonesia</span>
-    <span @click="toEnglish">gb United Kingdom</span>
+    <span @click="toIndonesia">Indonesia</span>
+    <span @click="toEnglish">English</span>
   </div>
 </template>
 
@@ -37,11 +36,13 @@ a {
   font-weight: bold;
   font-size: 1.9rem;
   text-align: right;
-  font-style: italic;
   letter-spacing: 5px;
-  font-family: cursive;
+  font-family: poppins;
   text-decoration: none;
   transition: color 0.1s;
+}
+a:hover {
+  color: #066163;
 }
 .languages {
   color: #383838;
@@ -59,6 +60,7 @@ span {
 }
 span:hover {
   text-decoration: underline;
+  color: #cdbe78;
 }
 @media screen and (min-width: 1160px) {
   span {
