@@ -104,10 +104,10 @@ body {
   background-color: #f2f2f2;
 }
 ::-webkit-scrollbar {
-  background: #2d3238;
+  background: #f2f2e2;
 }
 ::-webkit-scrollbar-thumb {
-  background: #131c25;
+  background: #cdbe78;
   border-radius: 8px;
 }
 ol,
