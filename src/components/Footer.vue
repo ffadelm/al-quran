@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <p>Copyright © 2022 Faysal Fadel Maulana</p>
+    <p>Copyright © 2022 Faysal FM</p>
   </footer>
 </template>
 
