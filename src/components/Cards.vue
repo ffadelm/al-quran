@@ -3,11 +3,11 @@
     <router-link
       class="name"
       :to="{ name: 'Detail', params: { id: surah.number_of_surah } }"
-      >📌 {{ surah.name }}</router-link
+      >🔖 {{ surah.name }}</router-link
     >
 
     <p class="translation">
-      🔎
+      📖
       {{
         language === "eng"
           ? surah.name_translations.en
@@ -16,16 +16,19 @@
     </p>
 
     <p class="number_of_surah">
-      {{ language === "eng" ? "🔢 Number of surah" : "🔢 Surah ke" }} :
+      {{ language === "eng" ? "▶️ Number of surah" : "▶️ Surah ke" }} :
       {{ surah.number_of_surah }}
     </p>
 
     <p class="number_of_ayah">
-      {{ language === "eng" ? "🔢 Number of ayah" : "🔢 Jumlah ayat" }}:
+      {{ language === "eng" ? "⏺️ Number of ayah" : "⏺️ Jumlah ayat" }}:
       {{ surah.number_of_ayah }}
     </p>
 
-    <p class="type">🗺 {{ surah.type }}</p>
+    <p class="type">
+      📍
+      {{ surah.type }}
+    </p>
   </div>
 </template>
 
