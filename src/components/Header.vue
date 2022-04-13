@@ -46,9 +46,9 @@ a {
   font-weight: bold;
   font-size: 1.9rem;
   text-align: right;
-  font-style: italic;
+  font-style: normal;
   letter-spacing: 5px;
-  font-family: cursive;
+  font-family: monospace;
   text-decoration: none;
   transition: color 0.1s;
 }
