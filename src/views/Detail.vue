@@ -46,6 +46,7 @@
       />
     </div>
   </div>
+  <Foot />
 </template>
 
 <script>
@@ -53,17 +54,20 @@ import { computed } from "vue";
 import { useStore } from "vuex";
 import { useRoute } from "vue-router";
 
-import useFetch from "../use/useFetch";
-//import Card from "../components/Cards.vue";
-import Verse from "../components/Ayat.vue";
-import Header from "../components/Header.vue";
-import Skeleton from "../components/Skeletons.vue";
+import useFetch from "@/use/useFetch";
+//import Card from "@/components/Cards.vue";
+import Verse from "@/components/Ayat.vue";
+import Header from "@/components/Header.vue";
+import Skeleton from "@/components/Skeletons.vue";
+import Foot from "@/components/Footer.vue";
+
 export default {
   components: {
     //Card,
     Verse,
     Header,
     Skeleton,
+    Foot,
   },
   setup() {
     const id = useRoute().params.id;
