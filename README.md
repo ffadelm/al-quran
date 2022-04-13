@@ -1,6 +1,6 @@
 # al-quran
 
-## Data
+## API Data
 see https://github.com/penggguna/QuranJSON
 
 ## Project setup
