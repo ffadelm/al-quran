@@ -1,5 +1,8 @@
 # al-quran
 
+## Data
+see https://github.com/penggguna/QuranJSON
+
 ## Project setup
 ```
 yarn install
